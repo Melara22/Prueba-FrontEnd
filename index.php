@@ -46,6 +46,9 @@
         <div class="overlay"></div>
           <div class="container">
             <div class="row">
+              <div class="float-left">
+                <p>hola</p>
+              </div>
               <div id="intro-text" class="col-md">
                   <h5>INTRODUCTION</h5>
                   <H1>Si se puede imaginar, se puede crear.</H1>
@@ -71,11 +74,13 @@
         
       </section>
       <section class="about-us" data-bg-text="About Us">
-        
+        <div class="overlay-text">
+          <h1 style="color: black;">About Us</h1>
+        </div>
           <div class="container">
             <div class="row">
               
-              <div class="col-md">
+              <div class="col-md" id="about-div">
               
                   <img src="assets/img/about.jpg" class="img-fluid img-about mx-auto d-block">
                   
