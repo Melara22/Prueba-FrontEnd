@@ -1,0 +1,127 @@
+
+/*SECTION HEADER*/
+@overlay: rgba(20,20,20,1);
+@overlay2:rgba(20,20,20,0.7);
+@white-color:#fff;
+
+
+.size{
+	width:100%;
+	height:100vh;
+}
+.intro{
+	.size;
+}
+.intro .container{
+	.size;
+}
+.intro > .container > .row{
+	margin:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:auto;
+	height:100%;
+}
+
+.overlay{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	background:linear-gradient(to right, @overlay, @overlay2);
+	background:-webkit-linear-gradient(to right, @overlay, @overlay2);
+	background:-moz-linear-gradient(to right, @overlay, @overlay2);
+}
+.line-separator{
+	height:1px;
+	background:@white-color;
+	width:10em;
+	margin-left:-3em;
+}
+
+#intro-text{
+	z-index:100;
+}
+
+/*Text of intro section*/
+#intro-text h1,p,h5{
+	color:@white-color;	
+}
+
+.sizeh5 (@size: 1rem) {
+	font-size:@size;
+}
+
+.sizep (@size:0.8rem;){
+	font-size:@size;
+	font-family: 'Open Sans', sans-serif;
+}
+.sizeh1 (@size:3rem;){
+	font-size:@size;
+	font-family: 'Arvo', serif;
+}
+
+#intro-text h5{
+	.sizeh5;
+}
+
+#intro-text p{
+	.sizep;
+}
+
+#intro-text h1{
+	.sizeh1;
+}
+
+
+
+/*Section about us*/
+.about-us{
+	.size;
+	background:rgb(10,10,10);
+	padding-top:3em;
+}
+
+.about-us .container{
+	width:60%;
+	height:100%;
+}
+.about-us > .container > .row{
+	margin:0;
+	width:auto;
+	height:100%;
+}
+
+.img-about{
+	height:250px;
+	
+}
+
+#about-text {
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	margin-top:3em;
+}
+
+#about-text p{
+	.sizep;
+	text-align:center;
+
+}
+#about-text h1{
+	.sizeh1;
+	color:@white-color;
+}
+
+
+ @media only screen and (max-device-width:480px) {
+ 	.about-us .container{
+	width:100%;
+	
+}
+    }
