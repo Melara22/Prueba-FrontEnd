@@ -39,7 +39,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="about.php">Link</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-md-0">
