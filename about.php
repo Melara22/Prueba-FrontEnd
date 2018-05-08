@@ -52,7 +52,9 @@
     <div class="container">
       <div class="row">
         <div class="about-header">
-            <i class="fas fa-quote-right"></i>
+            <i class="fas fa-quote-right"></i><br>
+            <h2>La unica forma de hacer un gran trabajo,<br> es amar lo que haces</h2>
+            <div class="vertical-separator"> </div>
           
         </div>
         
@@ -61,6 +63,112 @@
     </div>
     
   </section>
+
+  <section class="about-post">
+    <div class="container">
+        <div class="row"> 
+            <div class="col-md">
+              <img class="img-fluid img-about mx-auto d-block" src="assets/img/about1.jpg">
+              <div class="top-left">01.</div>
+            </div>
+            <div class="col-md">
+              <h5>2015 year</h5>
+                  <h1 class="wow fadeInUp" data-wow-duration="2s">For those about to rock</h1>
+                  <br>
+                  <div class="line-separator"></div>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+              
+              
+            </div>
+          
+        </div>
+        
+        <div class="row post"> 
+            <div class="col-md">
+              <h5>2015 year</h5>
+                  <h1 class="wow fadeInUp" data-wow-duration="2s">For those about to rock</h1>
+                  <br>
+                  <div class="line-separator"></div>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+              
+              
+            </div>
+            <div class="col-md">
+              <img class="img-fluid img-about mx-auto d-block" src="assets/img/about.jpg">
+              <div class="top-right">02.</div>
+            </div>
+          
+        </div> 
+        <div class="row post"> 
+            <div class="col-md">
+              <img class="img-fluid img-about mx-auto d-block" src="assets/img/about3.jpg">
+              <div class="top-left">03.</div>
+            </div>
+            <div class="col-md">
+              <h5>2015 year</h5>
+                  <h1 class="wow fadeInUp" data-wow-duration="2s">For those about to rock</h1>
+                  <br>
+                  <div class="line-separator"></div>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+              
+              
+            </div>
+          
+        </div> 
+
+        <div class="row post-info">
+            <div class="col-md about-work">
+              <h4>Experience</h4>
+              <hr align="left" class="small-line">
+              <h5>Bootstrap 4</h5>
+              <p>Lorem ipsum</p>
+              <p>2016 - 2017</p>
+              
+            </div>
+            <div class="col-md about-work">
+              <h4>Redisigned</h4>
+              <hr align="left" class="small-line">
+              <h5>Less</h5>
+              <p>Lorem ipsum</p>
+              <p>2016 - 2017</p>
+              
+            </div>
+            <div class="col-md about-work">
+              <h4>Favorited</h4>
+              <hr align="left" class="small-line">
+              <h5>Javascript</h5>
+              <p>Lorem ipsum</p>
+              <p>2016 - 2017</p>
+              
+            </div>
+          
+        </div>    
+    </div>
+  </section>
+
+<div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="assets/img/parallax.jpg" data-natural-width="1400" data-natural-height="1400" style="height: 630px;"></div>
+
 
       <section class="sign-up">
         <div class="container" align="center">
@@ -83,9 +191,7 @@
               </div>
             
           </div>
-          
-        
-         
+     
         
       </section>
      
@@ -118,8 +224,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script src="assets/js/menu-effect.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  
     <script type="text/javaScript">
       // Initializations
 var sidenav = new Sidenav("sidenav");

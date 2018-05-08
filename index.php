@@ -194,14 +194,7 @@
                     </div>
                     <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
                   </div>
-                       
-                  
-              
             </div>
-
-            
-         
-        
       </section>
 
       <section class="testimonials">
