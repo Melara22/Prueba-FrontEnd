@@ -217,6 +217,7 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="assets/js/menu-effect.js"></script>
+     <script src="assets/js/active-menu.js"></script>
   
     <script src="assets/js/nav-mobile.js"></script>
   

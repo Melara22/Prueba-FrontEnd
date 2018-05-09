@@ -10,13 +10,13 @@
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">Home.</a>
+            <a class="nav-link" href="index.php"><span>Home.</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.php">About Me.</a>
+            <a class="nav-link" href="about.php"><span>About us.</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact.</a>
+            <a class="nav-link" href="contact.php"><span>Contact.</span></a>
           </li>
         </ul>
         <form class="form-inline my-2 my-md-0">

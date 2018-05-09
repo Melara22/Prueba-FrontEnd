@@ -13,6 +13,39 @@ body{
     padding-right: 1.5rem;
     padding-left: 1.5rem;
 }
+ nav ul li a.active {
+    position:relative;
+  text-align: center;
+  color:@white-color;
+  font-family: 'Righteous', cursive;
+      display: flex;
+    justify-content: center;
+    -webkit-justify-content:center;
+	-moz-justify-content:center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+ nav ul li a.active:before{
+	content: "";
+  display: block;
+  border-top: solid 20px rgb(83, 39, 254);
+  width: 50%;
+  height: 2px;
+  left:10%;
+  position: absolute;
+  top: 10%;
+  z-index: 0;
+}
+
+
+ nav ul li a.active span {
+ 
+  padding: 0 5px;
+  position: relative;
+  z-index: 1;
+}
+
 .sidenav {
     position: fixed;
     width: 80vw;
@@ -156,6 +189,57 @@ body{
 	height:100%;
 }
 
+.button-back{
+  position:relative;
+  text-align: center;
+  color:@white-color;
+  font-family: 'Righteous', cursive;
+  display:flex;
+}
+.button-back:before {
+  content: "";
+  display: block;
+  border-top: solid 25px rgb(83, 39, 254);
+  width: 10%;
+  height: 2px;
+  position: absolute;
+  top: 20%;
+  
+  z-index: 0;
+  
+}
+.button-back span {
+ 
+  padding: 0 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.explore{
+	position: absolute;
+    left: 95%;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    -webkit-align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+    align-items:center;
+    z-index:100;
+}
+.explore p {
+	t
+	color:@white-color;
+	writing-mode: vertical-lr;
+	-webkit-writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    display:inline-block;
+    margin-bottom:10px;
+    font-family:'Open Sans',sans-serif;
+}
 .social{
 	position:absolute;
 	color:#fff;
@@ -437,14 +521,23 @@ body{
 	font-size: 13px;
 }
 .carousel .media img {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	display: block;
 	object-fit:cover;
 	
 }
+.carousel .media{
+	height:100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, black 0%,black 20%,#000000 20%,#212121 0%,#212121 100%); /* W3C */
+
+}
+
 .carousel .testimonial {
-	padding: 0 15px 0 60px ;
+	padding: 0;
 	position: relative;
 }
 
@@ -452,9 +545,26 @@ body{
 	text-transform: uppercase;
 	color: #1c47e3;
 }
-.carousel .carousel-indicators {
-	bottom:-10em ;
+.carousel .carousel-indicators{
+
+position:relative!important;
+	top:5em;
 }
+.carousel .carousel-indicators a {
+	
+	text-decoration:none;
+	color:@white-color;
+}
+.carousel-item .col-sm-4{
+	height:50vh;
+}
+
+
+.carousel .carousel-indicators a {
+    overflow: hidden;
+    text-align: center;
+}
+
 
 
 
@@ -1018,6 +1128,9 @@ PAGE CONTACT
 
 .contact .container{
 	padding-top: 20%;
+}
+.explore{
+	display:none!important;
 }
 	
     }

@@ -40,6 +40,11 @@
                 <a href="">Instagram</a>
               </ul>
             </div>
+
+            <div class="explore">
+             <p>Explore More</p> 
+              <div class="vertical-separator"> </div>
+            </div>
             <div class="row">
               
               <div id="intro-text" class="col-md">
@@ -56,7 +61,7 @@
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                   <br>
-                  <h1 class="heading-3"><span><a class="btn btn-dark" href="" >Explore</a></span></h1>
+                  <h1 class="button-back" align="left"><span><a class="btn btn-dark" href="" >Explore</a></span></h1>
 
               </div>
               <div class="col-md">
@@ -69,8 +74,9 @@
                 <a href="">Instagram</a>
               </ul>
             </div>
-            </div>
             
+            </div>
+
             
           </div>
         
@@ -231,161 +237,67 @@
       <br>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-           <a data-target="#myCarousel" data-slide="prev" href="">PREV</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <a data-target="#myCarousel" data-slide="next" href="">NEXT</a>
-        </ol>   
+          
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
           <div class="item carousel-item active">
             <div class="row">
                             <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
+                <div class="media row">
+                  <div class=" col-md" align="center">
+                    
                       <img src="assets/img/about1.jpg" alt="">
-                    </a>
+                   
                   </div>
-                  <div class="media-body">
+                  <div class="col-md">
                     <div class="testimonial">
                       <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
-                      <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                      
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
+                <div class="media row">
+                  <div class="col-md " align="center">
+             
                       <img src="assets/img/about1.jpg" alt="">
-                    </a>
+                    
                   </div>
-                  <div class="media-body">
+                  <div class="col-md">
                     <div class="testimonial">
                       <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
-                      <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                      
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
-                     <img src="assets/img/about1.jpg" alt="">
-                    </a>
+                <div class="media row">
+                  <div class="col-md" align="center">
+                   
+                      <img src="assets/img/about1.jpg" alt="">
+                   
                   </div>
-                  <div class="media-body">
+                  <div class="col-md">
                     <div class="testimonial">
-                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
-                      <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                      <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                     
                     </div>
                   </div>
                 </div>
               </div>
             </div>      
           </div>
-          <div class="item carousel-item">
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
-                      <img src="assets/img/about1.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <div class="testimonial">
-                      <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
-                      <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
-                      <img src="assets/img/about1.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <div class="testimonial">
-                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
-                      <p class="overview"><b>Mary Saveley</b>, Web Designer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
-                      <img src="assets/img/about1.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <div class="testimonial">
-                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
-                      <p class="overview"><b>Mary Saveley</b>, Web Designer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>      
-          </div>
-          <div class="item carousel-item">
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
-                      <img src="assets/img/about1.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <div class="testimonial">
-                      <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
-                      <p class="overview"><b>Martin Sommer</b>, UX Analyst</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
-                      <img src="assets/img/about1.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <div class="testimonial">
-                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
-                      <p class="overview"><b>John Williams</b>, Web Developer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="media">
-                  <div class="media-left d-flex mr-3">
-                    <a href="#">
-                      <img src="assets/img/about1.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <div class="testimonial">
-                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
-                      <p class="overview"><b>John Williams</b>, Web Developer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>      
-          </div>
+
+         
         </div>
+        <ol class="carousel-indicators">
+           <a class="rigth" data-target="#myCarousel" data-slide="prev" href=""><span>PREV</span></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+           <a data-target="#myCarousel" data-slide="next" href="">NEXT</a>
+        </ol> 
       </div>
     </div>
   </div>
@@ -423,8 +335,7 @@
               <p>lorem</p>
               <h5>Photos</h5>
               <p>lorem</p>
-              <h5>Photos</h5>
-              <p>lorem</p>
+              
               <br>
               
                 <h1 class="price">$39</h1>
@@ -446,8 +357,7 @@
               <p>lorem</p>
               <h5>Photos</h5>
               <p>lorem</p>
-              <h5>Photos</h5>
-              <p>lorem</p>
+             
               <br>
               
                 <h1 class="price">$39</h1>
@@ -468,8 +378,7 @@
               <p>lorem</p>
               <h5>Photos</h5>
               <p>lorem</p>
-              <h5>Photos</h5>
-              <p>lorem</p>
+              
               <br>
               
                 <h1 class="price">$39</h1>
@@ -491,8 +400,7 @@
               <p>lorem</p>
               <h5>Photos</h5>
               <p>lorem</p>
-              <h5>Photos</h5>
-              <p>lorem</p>
+              
               <br>
                 
               <h1 class="price">$39</h1>
@@ -596,6 +504,7 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/menu-effect.js"></script>
     <script src="assets/js/nav-mobile.js"></script>
+    <script src="assets/js/active-menu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.1/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="assets/js/gallery.js"></script>
