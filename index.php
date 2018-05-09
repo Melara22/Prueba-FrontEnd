@@ -4,8 +4,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Prueba Frontend elaniin">
+    <meta name="author" content="Oscar Melara">
     
 
     <title>FrontEnd Test</title>
@@ -16,41 +16,30 @@
     <!-- Custom styles -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet/less" type="text/css" href="assets/css/intro.less" />
-    <link href="https://fonts.googleapis.com/css?family=Arvo:bold|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script type="text/javaScript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js"></script>
   </head>
 
   <body>
 <div id="sidenav" class="sidenav">
-  <a href="#" class="hamburger"></a>
-  <a href=""><li class="active">Homre</li></a>
-  <a href=""><li>Link</li></a>
+  <a class="hamburger"></a>
+  <a  href="index.php"><li><p class="li-active"><span>Home.</span></p></li></a>
+  <a href="about.php"><li>About Us.</li></a>
+  <a href="contact.php"><li>Contact.</li></a>
 </div>
-   <nav class="navbar navbar-expand navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">Front end</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExample02">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php">Link</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-md-0">
-          
-        </form>
-      </div>
-    </nav>
+<?php include ("components/menu.php"); ?>
 
       <section class="intro">
         <div class="overlay"></div>
           <div class="container">
+            <div class="social" >
+              <ul>
+                <a href="">Facebook</a>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+              </ul>
+            </div>
             <div class="row">
               
               <div id="intro-text" class="col-md">
@@ -66,13 +55,22 @@
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
+                  <br>
+                  <h1 class="heading-3"><span><a class="btn btn-dark" href="" >Explore</a></span></h1>
 
               </div>
               <div class="col-md">
                 
               </div>
-              
+              <div class="social-mobi">
+              <ul>
+                <a href="">Facebook</a>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+              </ul>
             </div>
+            </div>
+            
             
           </div>
         
@@ -218,12 +216,180 @@
               </div>
               
             </div>
-            <div class="row">
-              <h1 class="head-section">Testimonials</h1>
-              
-            </div>
+           
 
         </div>
+      </section>
+
+      <section class="section-testimonial">
+         <div class="">
+  <div class="row">
+    <div class="col-sm-12" align="center">
+      <h1 class="head-section">Testimonials</h1>
+      <br>
+      <div class="vertical-separator"> </div>
+      <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+           <a data-target="#myCarousel" data-slide="prev" href="">PREV</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a data-target="#myCarousel" data-slide="next" href="">NEXT</a>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+          <div class="item carousel-item active">
+            <div class="row">
+                            <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                      <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                      <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                      <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                      <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                     <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                      <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
+          <div class="item carousel-item">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                      <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                      <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                      <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                      <p class="overview"><b>Mary Saveley</b>, Web Designer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                      <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                      <p class="overview"><b>Mary Saveley</b>, Web Designer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
+          <div class="item carousel-item">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                      <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                      <p class="overview"><b>Martin Sommer</b>, UX Analyst</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                      <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                      <p class="overview"><b>John Williams</b>, Web Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="media">
+                  <div class="media-left d-flex mr-3">
+                    <a href="#">
+                      <img src="assets/img/about1.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="testimonial">
+                      <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                      <p class="overview"><b>John Williams</b>, Web Developer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
       </section>
 
       <section class="pricing">
@@ -245,7 +411,7 @@
         <div class="row">
           <div class="col-md product-one wow fadeInUp" data-wow-duration="2s">
             <div class="overlay-pricing"></div>
-              <h2>Item 1</h2>
+              <h2 class="theme-pricing"><span>Item 1</span></h2>
               <br>
               <h5>Photos</h5>
               <p>lorem</p>
@@ -259,16 +425,16 @@
               <p>lorem</p>
               <h5>Photos</h5>
               <p>lorem</p>
-              <div class="col-md-6">
-                <h1>$39</h1>
-              </div>
-               <div class="col-md-6">
+              <br>
+              
+                <h1 class="price">$39</h1>
                 
-              </div>
+            
+               
           </div>
           <div class="col-md product-two wow fadeInDown" data-wow-duration="2s">
             <div class="overlay-pricing"></div>
-             <h2>Item 1</h2>
+             <h2 class="theme-pricing"><span>Item 1</span></h2>
               <br>
               <h5>Photos</h5>
               <p>lorem</p>
@@ -282,16 +448,15 @@
               <p>lorem</p>
               <h5>Photos</h5>
               <p>lorem</p>
-              <div class="col-md-6">
-                <h1>$39</h1>
-              </div>
-               <div class="col-md-6">
-                
-              </div>
+              <br>
+              
+                <h1 class="price">$39</h1>
+              
+              
           </div>
           <div class="col-md product-three wow fadeInUp" data-wow-duration="2s">
             <div class="overlay-pricing"></div>
-             <h2>Item 1</h2>
+             <h2 class="theme-pricing"><span>Item 1</span></h2>
               <br>
               <h5>Photos</h5>
               <p>lorem</p>
@@ -305,17 +470,16 @@
               <p>lorem</p>
               <h5>Photos</h5>
               <p>lorem</p>
-              <div class="col-md-6">
-                <h1>$39</h1>
-              </div>
-               <div class="col-md-6">
-                
-              </div>
+              <br>
+              
+                <h1 class="price">$39</h1>
+              
+               
           </div>
           <div class="col-md product-four wow fadeInDown" data-wow-duration="2s"> 
             <div class="overlay-pricing"></div>
           
-             <h2>Item 1</h2>
+             <h2 class="theme-pricing"><span>Item 1</span></h2>
               <br>
               <h5>Photos</h5>
               <p>lorem</p>
@@ -329,12 +493,13 @@
               <p>lorem</p>
               <h5>Photos</h5>
               <p>lorem</p>
-              <div class="col-md-6">
-                <h1>$39</h1>
-              </div>
-               <div class="col-md-6">
+              <br>
                 
-              </div>
+              <h1 class="price">$39</h1>
+              
+            
+              
+               
           </div>
           
         </div>
@@ -424,45 +589,17 @@
 
 
 
-    <!-- Bootstrap core JavaScript
+    <!-- JavaScript
     ================================================== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/menu-effect.js"></script>
+    <script src="assets/js/nav-mobile.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.1/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="assets/js/gallery.js"></script>
-    <script type="text/javaScript">
-      // Initializations
-var sidenav = new Sidenav("sidenav");
-document.getElementById("sidenav").addEventListener("click", function () {
-  sidenav.openClose();
-})
-
-/**
- * Sidenav
- */
-function Sidenav(ob) {
-  var navId = (ob !== null && typeof ob === 'object') ? ob.id : ob;
-  var opt = ob || {};
-
-  this.isOpen = opt.isOpen || false;
-  this.sidenav = document.getElementById(navId);
-}
-
-// True is open, false is close and no option is toggle
-Sidenav.prototype.openClose = function (open) {
-  var self = this;
-
-  self.isOpen = open || !self.isOpen;
-  if (self.isOpen) {
-    self.sidenav.classList.add("open");
-  } else {
-    self.sidenav.classList.remove("open");
-  }
-}
-    </script>
+    
   
     
   </body>
